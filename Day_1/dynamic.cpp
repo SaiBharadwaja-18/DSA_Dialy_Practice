@@ -3,6 +3,7 @@ using namespace std;
 int main(){
     vector<int> arr={1, 2, 3, 4, 5};
     // reverse(arr.begin(), arr.end());
+    
     int start=0;int end=arr.size()-1;
     while(start<end){
         swap(arr[start],arr[end]);
